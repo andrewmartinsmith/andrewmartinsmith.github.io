@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "About Me"
 author: "Andrew Martin-Smith"
 date: "9/7/2017"
 output: html_document
@@ -9,6 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## This is my website
+## About Me
 
-Welcome to my website and enjoy the content.
+School
+
+  I go to Appalachian State University. I am a Recreation Mangament Major with a minor in Statistics.
