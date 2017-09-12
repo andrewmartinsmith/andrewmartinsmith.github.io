@@ -4,6 +4,9 @@ author: "Andrew Martin-Smith"
 date: "9/7/2017"
 output: html_document
 ---
+```{r, echo=FALSE}
+knitr:: include_graphics("./img/images.png")
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -13,4 +16,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Welcome to my website and enjoy the content.
 
-I am currently making this website in my Data Science 1 class with Dr. Arnholt and am a beginner with all things R.
+I am currently making this website in my Data Science 1 class with Dr. Arnholt and am a beginner with all things R, but I am slowly becoming more accustomed with these things.

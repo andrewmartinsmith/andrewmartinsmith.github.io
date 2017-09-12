@@ -13,9 +13,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 School
 
+```{r, echo=FALSE}
+  knitr:: include_graphics("./img/download.png")
+```
+
   I go to Appalachian State University. I am a Recreation Mangament Major with a minor in Statistics.
-  
+
+
 Hobbies
 
-  Some of my hobbies include playing soccer, swimming, snowboarding and things alike. I also like to spend my time outside hiking and searching for things and places to explore.
+Some of my hobbies include playing soccer, swimming, snowboarding and things alike. I also like to spend my time outside hiking and searching for things and places to explore.
   
+
+
+
+
+
+
