@@ -1,0 +1,26 @@
+---
+title: "My Schedule"
+author: "Andrew Martin-Smith"
+date: "9/12/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## My Schedule
+
+Monday- not busy
+
+Tuesday- very busy
+
+Wednesday- not very busy
+
+Thursday- very busy
+
+Friday- not busy at all
+
+Saturday- Doing something productive and fun.... I hope.
+
+Sunday- Also doing something productive and fun instead of sitting around playing video games.
