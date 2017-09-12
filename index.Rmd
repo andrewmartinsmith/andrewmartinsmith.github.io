@@ -18,4 +18,4 @@ Welcome to my website and enjoy the content.
 
 I am currently making this website in my Data Science 1 class with Dr. Arnholt and am a beginner with all things R, but I am slowly becoming more accustomed with these things.
 
-As I become more well rounded with this programmingmy webpage will get better.
+As I become more well rounded with this programmingmy webpage will get better..
