@@ -1,0 +1,14 @@
+---
+title: "Resume"
+author: "Andrew Martin-Smith"
+date: "9/21/2017"
+output: html_document
+---
+
+[Resume](./img/ResumeFinal.pdf)
+
+
+```{r}
+
+```
+

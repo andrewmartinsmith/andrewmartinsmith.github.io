@@ -1,0 +1,15 @@
+---
+title: "Projects"
+author: "Andrew Martin-Smith"
+date: "9/19/2017"
+output: html_document
+---
+
+## Projects
+
+This is where you will find my current projects and things I and working on.
+
+This first project is my duplication of a Bike Data set from a Seattle bike experiment/program.
+
+
+[Bike Project](./projects/CopyOfCopyOfDuplication_Project1.html)

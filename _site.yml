@@ -9,5 +9,16 @@ navbar:
     href: index2.html
   - text: "My Schedule"
     href: index3.html
+  - text: "Projects"
+    href: index4.html
+  - text: "Resume"
+    href: index5.html
+  
+    
+output: 
+  html_document: 
+    theme: flatly
+    
+
     
     
