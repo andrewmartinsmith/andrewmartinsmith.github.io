@@ -15,7 +15,7 @@ navbar:
     href: index5.html
   
   
-   right:
+  right:
   - text: ""
     icon: glyphicon-info-sign
     href: index2.html
