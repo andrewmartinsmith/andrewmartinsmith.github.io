@@ -259,9 +259,9 @@ library(nycflights13)</code></pre>
 <p>You should always use the simplest possible data type that works for your needs. That means if you can use a date instead of a date-time, you should. Date-times are substantially more complicated because of the need to handle time zones, which we’ll come back to at the end of the chapter.</p>
 <p>To get the current date or date-time you can use <code>today()</code> or <code>now()</code>:</p>
 <pre class="r"><code>today()</code></pre>
-<pre><code>## [1] &quot;2017-11-14&quot;</code></pre>
+<pre><code>## [1] &quot;2017-11-16&quot;</code></pre>
 <pre class="r"><code>now()</code></pre>
-<pre><code>## [1] &quot;2017-11-14 15:36:46 EST&quot;</code></pre>
+<pre><code>## [1] &quot;2017-11-16 16:04:51 EST&quot;</code></pre>
 <p>Otherwise, there are three ways you’re likely to create a date/time:</p>
 <ul>
 <li>From a string.</li>
@@ -375,9 +375,9 @@ flights_dt</code></pre>
 <h3>From other types</h3>
 <p>You may want to switch between a date-time and a date. That’s the job of <code>as_datetime()</code> and <code>as_date()</code>:</p>
 <pre class="r"><code>as_datetime(today())</code></pre>
-<pre><code>## [1] &quot;2017-11-14 UTC&quot;</code></pre>
+<pre><code>## [1] &quot;2017-11-16 UTC&quot;</code></pre>
 <pre class="r"><code>as_date(now())</code></pre>
-<pre><code>## [1] &quot;2017-11-14&quot;</code></pre>
+<pre><code>## [1] &quot;2017-11-16&quot;</code></pre>
 <p>Sometimes you’ll get date/times as numeric offsets from the “Unix Epoch”, 1970-01-01. If the offset is in seconds, use <code>as_datetime()</code>; if it’s in days, use <code>as_date()</code>.</p>
 <pre class="r"><code>as_datetime(60 * 60 * 10)</code></pre>
 <pre><code>## [1] &quot;1970-01-01 10:00:00 UTC&quot;</code></pre>
@@ -525,10 +525,10 @@ datetime</code></pre>
 <pre class="r"><code># How old is Hadley?
 h_age &lt;- today() - ymd(19791014)
 h_age</code></pre>
-<pre><code>## Time difference of 13911 days</code></pre>
+<pre><code>## Time difference of 13913 days</code></pre>
 <p>A difftime class object records a time span of seconds, minutes, hours, days, or weeks. This ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the <strong>duration</strong>.</p>
 <pre class="r"><code>as.duration(h_age)</code></pre>
-<pre><code>## [1] &quot;1201910400s (~38.09 years)&quot;</code></pre>
+<pre><code>## [1] &quot;1202083200s (~38.09 years)&quot;</code></pre>
 <p>Durations come with a bunch of convenient constructors:</p>
 <pre class="r"><code>dseconds(15)</code></pre>
 <pre><code>## [1] &quot;15s&quot;</code></pre>
