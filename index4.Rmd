@@ -12,4 +12,4 @@ This is where you will find my current projects and things I and working on.
 This first project is my duplication of a Bike Data set from a Seattle bike experiment/program.
 
 
-[Bike Project](./projects/CopyOfCopyOfDuplication_Project1.html) Lastly Compiled 11/16/17
+[Bike Project](./projects/CopyOfCopyOfDuplication_Project1.html) 
