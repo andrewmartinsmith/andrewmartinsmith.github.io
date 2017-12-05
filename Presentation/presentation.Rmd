@@ -1,0 +1,44 @@
+---
+title: "Presentation"
+author: "Andrew Martin-Smith"
+date: "11/30/2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, fig.align = "center", message = FALSE)
+library(ggplot2)
+```
+
+
+
+
+## Beer Vs Wings
+
+```{r}
+beerwings <- read.csv("http://www1.appstate.edu/~arnholta/Data/Beerwings.csv")
+DT::datatable(beerwings[, 2:4])
+```
+
+
+## Graph
+
+```{r, echo = FALSE}
+ggplot(data = beerwings, aes(x = Beer, y = Hotwings)) +
+  geom_point(aes(color = Gender)) + 
+  labs(x = "Beer", y = "Hotwings") + 
+  theme_bw() + 
+  scale_color_manual(values = c("hotpink", "darkblue"))
+```
+
+
+## Where to get Beer and Wings in Boone
+
+The Ale house has 
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
