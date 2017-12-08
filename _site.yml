@@ -13,7 +13,8 @@ navbar:
     href: index4.html
   - text: "Resume"
     href: index5.html
-  
+  - text: "Presentation"
+    href: presentation.html
   
   right:
   - text: ""
