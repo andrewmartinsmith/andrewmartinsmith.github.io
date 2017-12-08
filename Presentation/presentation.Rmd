@@ -1,5 +1,5 @@
 ---
-title: "Presentation"
+title: "Beer Vs Wings"
 author: "Andrew Martin-Smith"
 date: "11/30/2017"
 output: ioslides_presentation
@@ -30,15 +30,29 @@ ggplot(data = beerwings, aes(x = Beer, y = Hotwings)) +
   theme_bw() + 
   scale_color_manual(values = c("hotpink", "darkblue"))
 ```
-
+This graph shows the amount of wings to consumed compared the amount in fluid ounces were consumed in a sitting with differentiation of sex.
 
 ## Where to get Beer and Wings in Boone
 
-The Ale house has 
+The Ale house has good wing deals on Thursday nights for 35 cents a wing, but also Monday through Thursday from 11pm - 2am has deals on various meals including wings. They also have various different drink and beer specials throughout the week.
 
-## Slide with Plot
+The Rock has 55 cent wings and $1.50 Keystone cans on Monday nights.
 
-```{r pressure}
-plot(pressure)
+Tapp Room you can get wings at menu price and various different beer specials from $2 - $4 throughout the week.
+
+## What I Used
+
+```{r, echo = TRUE, eval = FALSE}
+ggplot(data = beerwings, aes(x = Beer, y = Hotwings)) +
+  geom_point(aes(color = Gender)) + 
+  labs(x = "Beer", y = "Hotwings") + 
+  theme_bw() + 
+  scale_color_manual(values = c("hotpink", "darkblue"))
 ```
+
+This is the code that I used to make the graph and is essentially putting together what I have learned from this class With using R.
+
+## THE END
+
+
 
