@@ -14,7 +14,7 @@ navbar:
   - text: "Resume"
     href: index5.html
   - text: "Presentation"
-    href: presentation.html
+    href: presentation.rmd
   
   right:
   - text: ""
