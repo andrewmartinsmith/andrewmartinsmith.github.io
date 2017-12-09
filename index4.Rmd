@@ -14,4 +14,4 @@ This first project is my duplication of a Bike Data set from a Seattle bike expe
 
 [Bike Project](./projects/CopyOfCopyOfDuplication_Project1.html) 
 
-[Beer vs Wings](./presentation/presentation.html)
+[Beer vs Wings](./Presentation/presentation.html)
